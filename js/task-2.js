@@ -2,7 +2,6 @@ function makeArray(firstArray, secondArray, maxLength){
    let newArray = [];
    newArray = firstArray.concat(secondArray);
     let newLength = newArray.length;
-    console.log(newLength);
   if (newLength < maxLength){
      return newArray;
  } else {
